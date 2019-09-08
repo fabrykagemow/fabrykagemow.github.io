@@ -1,0 +1,508 @@
+body{
+
+
+  margin: 0;
+  padding: 0;
+ width: 100%;
+ height: 109%;
+font-family: 'Nunito', sans-serif;
+background-image: url("background.jpg");
+ background-position: center;
+background-size: 152% 152%;
+
+}
+*{
+
+    margin: 0;
+    padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+#container{
+
+  height: 109%;
+  width: 100%;
+
+
+}
+
+
+#logo{
+
+background-color: #1a76e8;
+width: 100%;
+height: 50px;
+border-bottom: 5px solid #0454b8;
+padding-left: 10px;
+box-sizing: border-box;
+
+
+margin-bottom: 30px;
+}
+#naglowek{
+
+
+box-sizing: border-box;
+
+padding-top: 5px;
+color: white;
+
+font-size: 30px;
+
+}
+
+#naglowek strong{
+  color: #00e600;
+}
+#online{
+
+  color: white;
+  font-size: 30px;
+  float: right;
+  margin-right: 2%;
+}
+#liczba_online{
+ color:#5af51d;
+}
+
+#box{
+  width: 100%;
+  height: 800px;
+
+
+}
+
+#formularz{
+width: 30%;
+min-width: 650px;
+
+
+min-height: 750px;
+background-color: #2c6fdb;
+border-bottom: 7px solid #0454b8;
+
+
+text-align: center;
+margin:auto;
+
+border-radius: 1%;
+
+}
+#forms{
+  width: 100%;
+  height: 90px;
+  text-align: center;
+
+}
+
+#formularz h2{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 5px;
+
+  margin-top: 5px;
+}
+
+#nick_form{
+width: 85%;
+height: 90px;
+border-radius: 1%;
+
+text-align: center;
+font-size: 50px;
+border: 5px solid #3890ff;
+border-bottom: 7px solid #060275;
+background-color: #022e66;
+color:white;
+}
+#formularz img{
+  width: 150px;
+  height: 150px;
+
+
+
+}
+#formularz ul{
+ text-align: center;
+}
+
+.gem-list{
+
+margin-top: 20px;
+min-width: 135px;
+width: 22%;
+margin-left: 1.5%;
+margin-right: 1.5%;
+height: 280px;
+background-color: white;
+float: left;
+border-radius: 3%;
+cursor: pointer;
+color: #022e66;
+font-size: 20px;
+
+text-align: center;
+box-sizing: border-box;
+}
+.gem-list:hover{
+  border: 4px solid gold;
+  transition: 0.2s;
+
+}
+.grey{
+  background-color:#ededed;
+
+}
+#lista{
+  width: 100%;
+  text-align: center;
+
+  height: 301px;
+}
+#gem{
+  width: auto;
+  height: 300px;
+
+}
+
+
+.oferta{
+  color: #515251;
+  width: 100%;
+  margin-bottom: 2px;
+  font-size: 15px;
+  background-color: gold;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  font-weight: bold;
+}
+.image{
+
+  background-size: 100% 110px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110px;
+  text-align: center;
+  background-image: url("gem_logo.jpg");
+}
+
+
+.cena{
+  margin-top: 10px;
+ color:green;
+  width: 100%;
+
+}
+.cena b{
+    text-decoration: line-through;
+
+    color:red;
+    opacity: 0.6;
+
+
+}
+#formularz a{
+  color: gold;
+  clear: both;
+
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+
+}
+
+
+footer{
+
+  margin-top: 6%;
+
+margin-bottom: 0;
+box-sizing: border-box;
+padding-bottom: 0;
+  font-size: 10px;
+  height: 40px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color:#919191;
+}
+footer p{
+  cursor: pointer;
+}
+footer p:hover{
+  text-decoration: underline;
+}
+#tresc{
+
+  display: none;
+
+}
+#tresc2{
+
+  display: none;
+
+}
+
+#button-dalej{
+
+ font-size: 40px;
+ color: white;
+ width: 60%;;
+ height: 100px;
+ background-color: #ff6600;
+ float: left;
+ cursor: pointer;
+ margin-top: 10px;
+ margin-left: 20%;
+ box-sizing: border-box;
+ padding-top: 20px;
+border-radius: 5%;
+border-bottom: 5px solid #ba510b;
+}
+#button-dalej:hover{
+  border: 4px solid #d1d1d1;
+  transition: 0.1s;
+
+}
+
+#step1{
+
+}
+#ladowanie-screen{
+display: none;
+color: white;
+text-align: center;
+font-size: 30px;
+
+}
+#nick{
+  color: white;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: gold;
+  overflow: hidden;
+}
+.gif{
+
+  height: 16%;
+  width: 16%;
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin: auto;
+  background-position: center;
+ background-size: 100% 100%;
+   background-image: url("load.gif");
+}
+#gif2{
+  height: 5%;
+  width: 7%;
+  margin-top: 30px;
+  margin-left: 46.5%;
+}
+
+#tekst-ladowanie{
+  color: white;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+
+#step2{
+display: none;
+}
+
+#step2 h3{
+  color: gold;
+
+}
+
+#sms a{
+  color: gold;
+  padding-bottom: 10px;
+
+}
+
+#sms{
+  background-color: #025799;
+  border-radius: 3%;
+  border: 2px solid #a3a3a3;
+  color: white;
+  text-align: center;
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: none;
+}
+#sms span{
+ font-size: 25px;
+ color: white;
+ margin-top: 10px;
+}
+
+#sms_form{
+  width: 70%;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+#check-regulamin{
+
+}
+#button-sms{
+
+  width: 50%;
+  height: 55px;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+#content1{
+
+}
+#ladowanie2{
+display: none;
+}
+#content2{
+display: none;
+}
+
+#gif3{
+  width: 100px;
+  height: 100px;
+  margin:auto;
+  margin-top: 100px;
+}
+
+#udalo{
+  font-size: 30px;
+}
+
+#content2 span{
+  font-size: 35px;
+
+}
+#content2 span b{
+  color: #00d640;
+
+}
+#check-img{
+
+  width: 80px;
+  height: 90px;
+  margin: auto;
+  background-position: center;
+ background-size: 100% 100%;
+ margin-top: 30px;
+   background-image: url("check.png");
+
+}
+
+#regulamin{
+  color:white;
+  opacity: 0.4;
+}
+#polityka{
+  color:white;
+  opacity: 0.4;
+}
+#kontakt{
+  color:white;
+  opacity: 0.4;
+}
+
+
+@media only screen and (max-width: 960px) {
+  #logo {
+    height: 100px;
+    text-align: center;
+    width: 100%;
+  }
+  #online{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 651px) {
+  #formularz {
+    min-width: 300px;
+    width: 90%;
+    height: 100%;
+    min-height: 1020px;
+
+  }
+  #box{
+    height: 110%;
+  }
+  #gm3{
+    clear: both;
+  }
+  .gem-list{
+    margin-left: 5.2%;
+    margin-right: 5.2%;
+  }
+  #lista{
+    margin: auto;
+    width: 60%;
+    height: 55%;
+  }
+}
+
+@media only screen and (max-width: 633px) {
+#lista{
+  width: 100%;
+}
+.gem-list{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+
+}
+@media only screen and (max-width: 598px) {
+  #logo{
+    height: 132px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+.gem-list{
+  margin: 0;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+#gem{
+  margin: auto;
+  width: 282px;
+  height: 580px;
+}
+
+}
+
+@media only screen and (max-width: 498px) {
+  #logo {
+    height: 150px;
+    text-align: center;
+  }
+  #logo{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+
+#button-dalej{
+  font-size: 25px;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 408px) {
+
+#formularz{
+  height: 1100px;
+}
+
+
+}
