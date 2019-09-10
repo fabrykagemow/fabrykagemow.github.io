@@ -1,6 +1,6 @@
-
+﻿
 var wybrano_oferte = false;
-var online = 7542;
+var online = 511;
 var contentPanelId;
 var nick;
 var harabasz = "Wbijaj na Okólna 76 w Częstochowie po darmowe gemy";
