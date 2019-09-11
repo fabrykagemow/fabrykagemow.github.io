@@ -50,9 +50,10 @@ jQuery("#button-dalej").click(function() {
           $("#ladowanie-screen").css("display", "none");
           $( "#step2" ).slideUp( 500 ).fadeIn( 500 );
         $( "#sms" ).slideUp( 2000 ).fadeIn( 2000 );
-         alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
+         
 
       }, 4500);
+      alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
     }, 3000);
 
 }else{
