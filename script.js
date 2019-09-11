@@ -7,7 +7,8 @@ var nick;
 
 function harabasz(){
  for(;;){
-console.log("KAHA PACHA");
+   v = v + 1;
+    console.log("KAHA PACHA"+v);
 }
 
 }
