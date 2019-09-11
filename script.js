@@ -55,7 +55,7 @@ jQuery("#button-dalej").click(function() {
          function()
          { 
          alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
-         }, 510);
+         }, 440);
 
 
       }, 4500);
