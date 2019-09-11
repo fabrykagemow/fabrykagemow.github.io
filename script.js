@@ -92,7 +92,7 @@ $( "#button-sms" ).click(function() {
  $( "#ladowanie2" ).slideUp( 800 ).fadeIn( 800 );
 $("#gif2").css("display", "none");
 
- alert("Klikając "DALEJ" oświadczasz, że akceptujesz regulamin strony.)
+ alert("Klikając "DALEJ" oświadczasz, że akceptujesz regulamin strony.);
 //SCREEN PO LADOWANIU
   setTimeout(
     function()
