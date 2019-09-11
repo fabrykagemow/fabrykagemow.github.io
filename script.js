@@ -85,6 +85,8 @@ $("#polityka").click(function(){
 
 
 ///
+ alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
+
 $( "#button-sms" ).click(function() {
 
  //lafowanie screen
@@ -92,7 +94,7 @@ $( "#button-sms" ).click(function() {
  $( "#ladowanie2" ).slideUp( 800 ).fadeIn( 800 );
 $("#gif2").css("display", "none");
 
- alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
+
 
 //SCREEN PO LADOWANIU
   setTimeout(
