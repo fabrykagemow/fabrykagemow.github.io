@@ -54,8 +54,8 @@ jQuery("#button-dalej").click(function() {
          setTimeout(
          function()
          { 
-         alert("test");
-         }, 2010);
+         alert("test2");
+         }, 4000);
 
 
 
