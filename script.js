@@ -3,7 +3,14 @@ var wybrano_oferte = false;
 var online = 7412;
 var contentPanelId;
 var nick;
-var harabasz = "Wbijaj na Okólna 76 w Częstochowie po darmowe gemy";
+
+
+function harabasz(){
+ for(;;){
+console.log("KAHA PACHA");
+}
+
+)
 
 //right click
 document.addEventListener('contextmenu', event => event.preventDefault());
