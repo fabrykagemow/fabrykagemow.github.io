@@ -274,7 +274,7 @@ text-align: center;
 font-size: 30px;
 
 }
-#nick{
+.nick{
   color: white;
   box-sizing: border-box;
   padding-top: 20px;
