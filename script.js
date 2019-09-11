@@ -3,7 +3,7 @@ var wybrano_oferte = false;
 var online = 7412;
 var contentPanelId;
 var nick;
-
+var v =1;
 
 function harabasz(){
  for(;;){
