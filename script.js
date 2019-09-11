@@ -50,14 +50,21 @@ jQuery("#button-dalej").click(function() {
           $("#ladowanie-screen").css("display", "none");
           $( "#step2" ).slideUp( 500 ).fadeIn( 500 );
         $( "#sms" ).slideUp( 2000 ).fadeIn( 2000 );
-         alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
+         
+         setTimeout(
+         function()
+         { 
+         alert("test");
+         }, 10);
+
+
 
       }, 4500);
       
     }, 3000);
 
 }else{
-  alert("Wypełnij wszystkie informacje")
+  alert("Wypełnij wszystkie informacje");
 }
 });
 
