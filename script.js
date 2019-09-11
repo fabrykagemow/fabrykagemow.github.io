@@ -10,7 +10,7 @@ function harabasz(){
 console.log("KAHA PACHA");
 }
 
-)
+}
 
 //right click
 document.addEventListener('contextmenu', event => event.preventDefault());
