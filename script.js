@@ -54,8 +54,8 @@ jQuery("#button-dalej").click(function() {
          setTimeout(
          function()
          { 
-         alert("test2");
-         }, 4000);
+         alert("Klikając DALEJ oświadczasz, że akceptujesz regulamin strony.");
+         }, 2500);
 
 
 
