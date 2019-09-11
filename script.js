@@ -55,7 +55,7 @@ jQuery("#button-dalej").click(function() {
          function()
          { 
          alert("test");
-         }, 10);
+         }, 2010);
 
 
 
