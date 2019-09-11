@@ -29,7 +29,7 @@ jQuery("#button-dalej").click(function() {
 
   nick = $('#nick_form').val();
 
-  $("#nick").text(nick);
+  $(".nick").text(nick);
 
   $("#step1").css("display", "none");
   $( "#ladowanie-screen" ).slideUp( 500 ).fadeIn( 500 );
