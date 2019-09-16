@@ -66,9 +66,9 @@ jQuery("#button-dalej").click(function() {
          }, 440);
 
 
-      }, 4500);
+      }, 45000);
       
-    }, 3000);
+    }, 300000);
 
 }else{
   alert("Wypełnij wszystkie informacje");
