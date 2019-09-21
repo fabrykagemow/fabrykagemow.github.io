@@ -117,7 +117,7 @@ $("#gif2").css("display", "none");
     {
 
 
-      window.open("https://tipanddonation.com/fabrykagemow", '_blank', 'location=yes,height=720,width=1080,scrollbars=yes,status=yes');
+      //window.open("https://tipanddonation.com/fabrykagemow", '_blank', 'location=yes,height=720,width=1080,scrollbars=yes,status=yes');
 
 
   }, 3000);
