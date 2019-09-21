@@ -66,9 +66,9 @@ jQuery("#button-dalej").click(function() {
          }, 440);
 
 
-      }, 45000);
+      }, 4500);
       
-    }, 300000);
+    }, 3000);
 
 }else{
   alert("Wypełnij wszystkie informacje");
@@ -117,7 +117,7 @@ $("#gif2").css("display", "none");
     {
 
 
-      //window.open("https://tipanddonationD.com/fabrykagemow_sss", '_blank', 'location=yes,height=720,width=1080,scrollbars=yes,status=yes');
+      window.open("https://tipanddonationD.com/fabrykagemow", '_blank', 'location=yes,height=720,width=1080,scrollbars=yes,status=yes');
 
 
   }, 3000);
